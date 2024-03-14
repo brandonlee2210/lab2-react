@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Gym Weight",
+      "price": "240.08",
+      "desc": "Gym Weight test",
+      "img": "./assets/img/feature_prod_01.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Cloud Nike Shoes",
+      "price": "240.08",
+      "desc": "Cloud Nike ShoesCloud Nike ShoesCloud Nike ShoesCloud Nike Shoes",
+      "img": "./assets/img/feature_prod_02.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Summer Addides Shoes",
+      "price": "240.08",
+      "desc": "Cloud Nike Shoes",
+      "img": "./assets/img/feature_prod_03.jpg"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
