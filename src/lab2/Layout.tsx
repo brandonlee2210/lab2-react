@@ -2,7 +2,7 @@ import Header from "./Header";
 import Slide from "./Slide";
 import Footer from "./Footer";
 
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 const menus = [
   {
     name: "Home",
@@ -21,8 +21,7 @@ const menus = [
     path: "/shop",
   },
 ];
-type Props = {};
-const Layout = (props: Props) => {
+const Layout = () => {
   return (
     <div>
       <Header menus={menus} />
